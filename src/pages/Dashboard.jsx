@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import {FaHouse,FaBook,FaArrowRight,FaUsers,FaGear,FaChartColumn,} from "react-icons/fa6";
+import {FaBook,FaArrowRight,} from "react-icons/fa6";
 import api from '../api';
 
 function Dashboard() {
