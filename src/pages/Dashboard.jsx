@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import {FaHouse,FaBook,FaArrowRight,FaUsers,FaGear,FaChartColumn,} from "react-icons/fa6";
 import api from '../api';
 
-import { FaExchangeAlt } from "react-icons/fa";
-
 function Dashboard() {
   const menuItems = [
     { label: 'Overview', anchor: '#overview' },
